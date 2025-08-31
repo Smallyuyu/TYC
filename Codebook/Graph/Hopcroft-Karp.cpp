@@ -70,6 +70,14 @@ struct HopcroftKarp {
         }
         return matching;
     }
+    void printMatch() {
+    	for (int u = 1; u <= n; ++u) {
+            if (a[u] != 0) {
+                cout << u << " " << a[u] << "\n";
+            }
+        }
+    }
+
 };
 
 void sol() {
