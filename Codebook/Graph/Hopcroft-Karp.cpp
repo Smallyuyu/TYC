@@ -1,4 +1,4 @@
-// Hopcroft-Karp 二分無權圖最大匹配 O(E*sqrt(V))
+// Hopcroft-Karp 無權二分圖最大匹配 O(E*sqrt(V))
 struct HopcroftKarp {
     int n, m;
     vector<vector<int>> adj;
